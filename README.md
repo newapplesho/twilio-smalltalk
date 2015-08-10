@@ -1,8 +1,5 @@
 # twilio-smalltalk
-A Smalltalk library for communicating with the Twilio REST API. You can get started in minutes using Metacello and FileTree.
-
-## Overview
-Library that enables simple integration with both Twilio voice and SMS services ([http://twilio.com](http://twilio.com)). 
+A Smalltalk library for communicating with the Twilio REST API ([http://twilio.com](http://twilio.com)). You can get started in minutes using Metacello and FileTree.
 
 #Supported Smalltalk Versions
 - [Pharo Smalltalk](http://pharo.org/) 4.0
