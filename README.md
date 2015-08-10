@@ -11,7 +11,11 @@ Library that enables simple integration with both Twilio voice and SMS services 
 # Installation
 
 ```smalltalk
-Gofer newurl:'http://smalltalkhub.com/mc/newapplesho/twilio-smalltalk/main';    package: 'ConfigurationOfTwilio';    load.(Smalltalk at: #ConfigurationOfTwilio) load.
+Gofer new
+url:'http://smalltalkhub.com/mc/newapplesho/twilio-smalltalk/main';
+    package: 'ConfigurationOfTwilio';
+    load.
+(Smalltalk at: #ConfigurationOfTwilio) load.
 ```
 
 or you may use git.
@@ -36,19 +40,21 @@ load.
 
 # How to use
 
-You can read our official documentation [here](https://www.twilio.com/docs/api).
+You can read official documentation [here](https://www.twilio.com/docs/api).
 
 ## Setup
 
 ```smalltalk
-TwilioSettings default accountSid: 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'.TwilioSettings default authToken: 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'.
+TwilioSettings default accountSid: 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'.
+TwilioSettings default authToken: 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'.
 ```
 
 
 ## Making a Phone Call
 
 ```smalltalk
-client := TwilioRestClient new.client makeCallTo: '+14155551212' from: '+14158675309' url: 'http://demo.twilio.com/docs/voice.xml'.
+client := TwilioRestClient new.
+client makeCallTo: '+14155551212' from: '+14158675309' url: 'http://demo.twilio.com/docs/voice.xml'.
 ```
 
 ## Sending a SMS Message
@@ -88,6 +94,7 @@ client accounts usageRecords thisMonth list.
 
 ```smalltalk
 client := TwilioRestClient new.
-"Returns a representation of an account."client getAccount: 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'. 
+"Returns a representation of an account."
+client getAccount: 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'. 
 ```
 
