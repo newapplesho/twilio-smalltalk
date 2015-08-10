@@ -1,0 +1,15 @@
+{
+	"category" : "Twilio-REST-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"accounts",
+		"client" ],
+	"name" : "TwilioRestClient",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

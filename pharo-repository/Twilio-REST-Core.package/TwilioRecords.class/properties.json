@@ -1,0 +1,14 @@
+{
+	"category" : "Twilio-REST-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"subresource" ],
+	"name" : "TwilioRecords",
+	"pools" : [
+		 ],
+	"super" : "TwilioInstanceResource",
+	"type" : "normal" }

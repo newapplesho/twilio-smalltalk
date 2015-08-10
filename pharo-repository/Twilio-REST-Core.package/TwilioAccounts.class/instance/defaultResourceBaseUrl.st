@@ -1,0 +1,3 @@
+defaults
+defaultResourceBaseUrl
+	^ TwilioResourceUrl defaultBaseUrl.

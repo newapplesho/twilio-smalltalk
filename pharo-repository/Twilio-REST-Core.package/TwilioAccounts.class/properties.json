@@ -1,0 +1,14 @@
+{
+	"category" : "Twilio-REST-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TwilioAccounts",
+	"pools" : [
+		 ],
+	"super" : "TwilioInstanceResource",
+	"type" : "normal" }
