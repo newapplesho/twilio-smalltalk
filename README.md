@@ -31,7 +31,7 @@ step 2
 ```smalltalk
 | pathToPackageDirectory |
 "edit to match the path to your chosen package directory"
-pathToPackageDirectory := '/YOUR-GIT-DIRECTORY-PATH/sendgrid-smalltalk/pharo-repository/'.
+pathToPackageDirectory := '/YOUR-GIT-DIRECTORY-PATH/twilio-smalltalk/pharo-repository/'.
 Metacello new
 baseline: 'Twilio';
 repository: 'filetree://', pathToPackageDirectory;
