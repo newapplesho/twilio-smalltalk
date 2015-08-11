@@ -54,7 +54,7 @@ client := TwilioRestClient new.
 client makeCallTo: '+14155551212' from: '+14158675309' url: 'http://demo.twilio.com/docs/voice.xml'.
 ```
 
-## Sending a SMS Message
+## Sending an SMS Message
 
 ```smalltalk
 client := TwilioRestClient new.
