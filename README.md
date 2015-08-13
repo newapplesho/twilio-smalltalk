@@ -19,20 +19,11 @@ or you may use git.
 
 step 1
 
-```
-https://github.com/newapplesho/twilio-smalltalk.git
-```
-
-step 2
-
 ```smalltalk
-| pathToPackageDirectory |
-"edit to match the path to your chosen package directory"
-pathToPackageDirectory := '/YOUR-GIT-DIRECTORY-PATH/twilio-smalltalk/pharo-repository/'.
 Metacello new
-baseline: 'Twilio';
-repository: 'filetree://', pathToPackageDirectory;
-load.
+    baseline: 'Twilio';
+    repository: 'github://newapplesho/twilio-smalltalk:v0.1/pharo-repository';
+    load.
 ```
 
 # How to use
