@@ -17,7 +17,6 @@ url:'http://smalltalkhub.com/mc/newapplesho/twilio-smalltalk/main';
 
 or you may use git.
 
-step 1
 
 ```smalltalk
 Metacello new
