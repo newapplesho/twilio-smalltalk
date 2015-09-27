@@ -21,7 +21,7 @@ or you may use git.
 ```smalltalk
 Metacello new
     baseline: 'Twilio';
-    repository: 'github://newapplesho/twilio-smalltalk:v0.1/pharo-repository';
+    repository: 'github://newapplesho/twilio-smalltalk:v0.1.1/pharo-repository';
     load.
 ```
 
