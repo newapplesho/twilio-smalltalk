@@ -21,7 +21,7 @@ or you may use git.
 ```smalltalk
 Metacello new
     baseline: 'Twilio';
-    repository: 'github://newapplesho/twilio-smalltalk:v0.1.1/pharo-repository';
+    repository: 'github://newapplesho/twilio-smalltalk:v0.2/pharo-repository';
     load.
 ```
 
@@ -49,6 +49,7 @@ client makeCallTo: '+14155551212' from: '+14158675309' url: 'http://demo.twilio.
 ```smalltalk
 client := TwilioRestClient new.
 client sendTo: '+15558675309' from: '+14158141829' message: 'Sent from Pharo Smalltalk.'.
+client sendTo: '+15558675309' from: '+14158141829' message: 'Pharo SmalltalkからSMSを送信'.
 ```
 
 ## Sending an MMS Message
@@ -83,5 +84,11 @@ client accounts usageRecords thisMonth list.
 client := TwilioRestClient new.
 "Returns a representation of an account."
 client getAccount: 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'. 
+```
+
+## Handling Exceptions
+
+```smalltalk
+client := TwilioRestClient new.[ client sendTo: '+1' from: '+ 14158141829' message: 'Handling Exceptions test'.] on: TwilioRestException do:[:ex | ex inspect ].
 ```
 
