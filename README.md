@@ -7,22 +7,22 @@ A Smalltalk library for communicating with the Twilio REST API ([http://twilio.c
 
 # Installation
 
-```smalltalk
-Gofer new
-url:'http://smalltalkhub.com/mc/newapplesho/twilio-smalltalk/main';
-    package: 'ConfigurationOfTwilio';
-    load.
-(Smalltalk at: #ConfigurationOfTwilio) load.
-```
-
-or you may use git.
-
 
 ```smalltalk
 Metacello new
     baseline: 'Twilio';
     repository: 'github://newapplesho/twilio-smalltalk:v0.2/pharo-repository';
     load.
+```
+
+or 
+
+```smalltalk
+Gofer new
+url:'http://smalltalkhub.com/mc/newapplesho/twilio-smalltalk/main';
+    package: 'ConfigurationOfTwilio';
+    load.
+(Smalltalk at: #ConfigurationOfTwilio) load.
 ```
 
 # How to use
@@ -89,6 +89,7 @@ client getAccount: 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'.
 ## Handling Exceptions
 
 ```smalltalk
-client := TwilioRestClient new.[ client sendTo: '+1' from: '+ 14158141829' message: 'Handling Exceptions test'.] on: TwilioRestException do:[:ex | ex inspect ].
+client := TwilioRestClient new.
+[ client sendTo: '+1' from: '+ 14158141829' message: 'Handling Exceptions test'.] on: TwilioRestException do:[:ex | ex inspect ].
 ```
 
