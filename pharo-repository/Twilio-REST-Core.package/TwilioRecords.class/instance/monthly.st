@@ -1,3 +1,3 @@
 accessing
 monthly
-	self subresource: 'Monthly'
+	self subResource: 'Monthly'

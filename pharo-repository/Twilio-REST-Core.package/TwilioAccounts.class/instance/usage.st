@@ -1,3 +1,3 @@
 accessing
 usage
-	^ TwilioUsage client: self client parent: self
+	^ TwilioUsage client: self client

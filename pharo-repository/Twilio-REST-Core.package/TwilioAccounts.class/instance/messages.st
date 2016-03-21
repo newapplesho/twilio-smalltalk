@@ -1,3 +1,3 @@
 accessing
 messages
-	^ TwilioMessages client: self client parent: self 
+	^ TwilioMessages client: self client

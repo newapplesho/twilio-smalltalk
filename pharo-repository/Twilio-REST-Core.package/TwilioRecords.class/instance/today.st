@@ -1,3 +1,3 @@
 accessing
 today
-	self subresource: 'Today'
+	self subResource: 'Today'

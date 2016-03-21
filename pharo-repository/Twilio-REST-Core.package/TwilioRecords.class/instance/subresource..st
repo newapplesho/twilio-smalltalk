@@ -1,3 +1,3 @@
 accessing
-subresource: anObject
-	subresource := anObject
+subResource: anObject
+	subResource := anObject

@@ -1,16 +1,13 @@
 {
 	"class" : {
-		"client:" : "ShoYoshida 8/7/2015 18:58",
-		"client:parent:" : "ShoYoshida 8/9/2015 23:00" },
+		"client:" : "ShoYoshida 8/7/2015 18:58" },
 	"instance" : {
 		"accountSid" : "ShoYoshida 8/7/2015 13:54",
 		"accountSid:" : "ShoYoshida 8/7/2015 11:35",
 		"client" : "ShoYoshida 8/7/2015 11:31",
 		"client:" : "ShoYoshida 8/7/2015 11:31",
+		"defaultResourceBaseUrl" : "ShoYoshida 3/21/2016 12:03",
 		"defaultResponseClass" : "ShoYoshida 10/1/2015 01:33",
-		"getResourceUrl" : "ShoYoshida 8/9/2015 23:13",
-		"parent" : "ShoYoshida 8/9/2015 23:00",
-		"parent:" : "ShoYoshida 8/9/2015 23:00",
-		"path" : "ShoYoshida 8/9/2015 23:03",
 		"readJsonFromResponse:" : "ShoYoshida 10/1/2015 01:40",
+		"resourceUrl" : "ShoYoshida 3/21/2016 12:02",
 		"settings" : "ShoYoshida 8/7/2015 08:56" } }

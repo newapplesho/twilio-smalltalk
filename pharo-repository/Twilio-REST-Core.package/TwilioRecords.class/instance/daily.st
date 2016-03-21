@@ -1,3 +1,3 @@
 accessing
 daily
-	self subresource: 'Daily'
+	self subResource: 'Daily'

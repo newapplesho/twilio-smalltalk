@@ -1,5 +1,5 @@
 public
 list
 	| response |
-	response := self client httpGet: self getResourceUrl asString.
+	response := self client httpGet: self resourceUrl asString.
 	^ self readJsonFromResponse: response.

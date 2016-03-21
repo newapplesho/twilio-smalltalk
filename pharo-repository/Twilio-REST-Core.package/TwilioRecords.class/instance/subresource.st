@@ -1,3 +1,3 @@
 accessing
-subresource
-	^ subresource
+subResource
+	^ subResource

@@ -1,3 +1,3 @@
 accessing
 records
-	^ TwilioRecords client: self client parent: self
+	^ TwilioRecords client: self client

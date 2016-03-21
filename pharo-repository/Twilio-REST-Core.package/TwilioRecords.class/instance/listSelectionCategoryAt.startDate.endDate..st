@@ -8,5 +8,5 @@ listSelectionCategoryAt: categoryStringOrSymbol startDate: aStartDateString endD
 	entity at: #EndDate add: aEndDateString.
 	urlString := String streamContents: [ :stream | entity writeOn: stream ]. 
 	
-	response := self client httpGet: (self getResourceUrl / urlString) asString.
+	response := self client httpGet: (self resourceUrl / urlString) asString.
 	^ self readJsonFromResponse: response.

@@ -1,3 +1,3 @@
 accessing
 allTime
-	self subresource: 'AllTime'
+	self subResource: 'AllTime'

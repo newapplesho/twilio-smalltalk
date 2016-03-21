@@ -6,7 +6,7 @@ sendTo: toPhoneNumberString from: fromPhoneNumberString message: messageString m
 	entity at:'From' add: fromPhoneNumberString.
 	entity at:'Body' add: messageString.
 	aMediaUrlString isEmptyOrNil ifFalse:[ entity at:'MediaUrl' add: aMediaUrlString ].
-	
 	self keysDo:[:key | entity at:key add: (self at:key) ].
-	response := self client httpPost: self getResourceUrl asString contents: entity.
+	
+	response := self client httpPost: self resourceUrl asString contents: entity.
 	^ self readJsonFromResponse: response.

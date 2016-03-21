@@ -1,3 +1,3 @@
 accessing
 lastMonth
-	self subresource: 'LastMonth'
+	self subResource: 'LastMonth'

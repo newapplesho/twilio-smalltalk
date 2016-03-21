@@ -1,3 +1,3 @@
 accessing
 yearly
-	self subresource: 'Yearly'
+	self subResource: 'Yearly'
