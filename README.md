@@ -11,7 +11,7 @@ A Smalltalk library for communicating with the Twilio REST API ([http://twilio.c
 ```smalltalk
 Metacello new
     baseline: 'Twilio';
-    repository: 'github://newapplesho/twilio-smalltalk:v0.2/pharo-repository';
+    repository: 'github://newapplesho/twilio-smalltalk:v0.2.1/pharo-repository';
     load.
 ```
 
