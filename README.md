@@ -1,4 +1,4 @@
-# twilio-smalltalk
+# twilio-smalltalk [![Build Status](https://travis-ci.org/newapplesho/twilio-smalltalk.svg?branch=master)](https://travis-ci.org/newapplesho/twilio-smalltalk)
 A Smalltalk library for communicating with the Twilio REST API ([http://twilio.com](http://twilio.com)). You can get started in minutes using Metacello.
 
 # Supported Smalltalk Versions
