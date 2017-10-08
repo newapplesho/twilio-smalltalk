@@ -1,8 +1,8 @@
 # twilio-smalltalk
-A Smalltalk library for communicating with the Twilio REST API ([http://twilio.com](http://twilio.com)). You can get started in minutes using Metacello and FileTree.
+A Smalltalk library for communicating with the Twilio REST API ([http://twilio.com](http://twilio.com)). You can get started in minutes using Metacello.
 
 # Supported Smalltalk Versions
-- [Pharo Smalltalk](http://pharo.org/) 4.0, 5.0
+- [Pharo Smalltalk](http://pharo.org/) 4.0, 5.0, 6.0, 6.1
 
 
 # Installation
@@ -13,16 +13,6 @@ Metacello new
     baseline: 'Twilio';
     repository: 'github://newapplesho/twilio-smalltalk:v0.2.1/pharo-repository';
     load.
-```
-
-or 
-
-```smalltalk
-Gofer new
-url:'http://smalltalkhub.com/mc/newapplesho/twilio-smalltalk/main';
-    package: 'ConfigurationOfTwilio';
-    load.
-(Smalltalk at: #ConfigurationOfTwilio) load.
 ```
 
 # How to use
