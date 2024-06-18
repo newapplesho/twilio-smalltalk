@@ -1,3 +1,0 @@
-public
-resourceUrl
-	self subclassResponsibility 
