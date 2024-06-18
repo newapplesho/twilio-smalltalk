@@ -1,9 +1,7 @@
 # Pharo-Twilio 
-A Smalltalk library for communicating with the Twilio REST API ([http://twilio.com](http://twilio.com)). You can get started in minutes using Metacello.
+A [Pharo](http://pharo.org/) library for communicating with the Twilio REST API ([http://twilio.com](http://twilio.com)). You can get started in minutes using Metacello.
 
-# Supported Smalltalk Versions
-- [Pharo Smalltalk](http://pharo.org/) 
-
+# Supported Versions
 [![Build](https://github.com/astares/Pharo-Twilio/actions/workflows/build.yml/badge.svg)](https://github.com/astares/Pharo-Twilio/actions/workflows/build.yml)
 [![Coverage Status](https://codecov.io/github/astares/Pharo-Twilio/coverage.svg?branch=main)](https://codecov.io/gh/astares/Pharo-Twilio/branch/main)
 
