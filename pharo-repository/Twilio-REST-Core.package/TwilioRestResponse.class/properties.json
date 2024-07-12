@@ -1,14 +1,13 @@
 {
-	"category" : "Twilio-REST-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"response" ],
-	"name" : "TwilioRestResponse",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Twilio-REST-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"response"
+	],
+	"name" : "TwilioRestResponse",
+	"type" : "normal"
+}

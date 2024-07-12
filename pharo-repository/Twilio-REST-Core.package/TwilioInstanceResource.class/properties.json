@@ -1,15 +1,14 @@
 {
-	"category" : "Twilio-REST-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "NeoJSONObject",
+	"category" : "Twilio-REST-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"client",
-		"accountSid" ],
+		"accountSid"
+	],
 	"name" : "TwilioInstanceResource",
-	"pools" : [
-		 ],
-	"super" : "NeoJSONObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

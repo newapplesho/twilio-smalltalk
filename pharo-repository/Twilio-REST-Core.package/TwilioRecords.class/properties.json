@@ -1,14 +1,13 @@
 {
-	"category" : "Twilio-REST-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"subResource" ],
-	"name" : "TwilioRecords",
-	"pools" : [
-		 ],
 	"super" : "TwilioInstanceResource",
-	"type" : "normal" }
+	"category" : "Twilio-REST-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"subResource"
+	],
+	"name" : "TwilioRecords",
+	"type" : "normal"
+}
