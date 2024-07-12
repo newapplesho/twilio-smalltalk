@@ -1,17 +1,16 @@
 {
-	"category" : "Twilio-REST-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Twilio-REST-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"baseUrlString",
 		"components",
 		"query",
-		"extension" ],
+		"extension"
+	],
 	"name" : "TwilioResourceUrl",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}
