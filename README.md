@@ -7,7 +7,7 @@ A Smalltalk library for communicating with the Twilio REST API ([http://twilio.c
 | Name                                 | Smalltalk Version  | Version                                                                       |
 | ------------------------------------ | ------------------ | ----------------------------------------------------------------------------- |
 | [Pharo Smalltalk](http://pharo.org/) | 4.0, 5.0, 6.0, 6.1 | [v0.2.2](https://github.com/newapplesho/twilio-smalltalk/releases/tag/v0.2.2) |
-| [Pharo Smalltalk](http://pharo.org/) | 11.0, 12.0         | Latested Version                                                              |
+| [Pharo Smalltalk](http://pharo.org/) | 11.0, 12.0         | Latest Version                                                                |
 
 # Installation
 
