@@ -1,17 +1,23 @@
-# twilio-smalltalk [![Build Status](https://travis-ci.org/newapplesho/twilio-smalltalk.svg?branch=master)](https://travis-ci.org/newapplesho/twilio-smalltalk)
-A Smalltalk library for communicating with the Twilio REST API ([http://twilio.com](http://twilio.com)). You can get started in minutes using Metacello.
+# twilio-smalltalk
+
+A Smalltalk library for communicating with the Twilio REST API ([http://twilio.com](http://twilio.com)).
 
 # Supported Smalltalk Versions
-- [Pharo Smalltalk](http://pharo.org/) 4.0, 5.0, 6.0, 6.1
 
+| Name                                 | Smalltalk Version  | Version                                                                       |
+| ------------------------------------ | ------------------ | ----------------------------------------------------------------------------- |
+| [Pharo Smalltalk](http://pharo.org/) | 4.0, 5.0, 6.0, 6.1 | [v0.2.2](https://github.com/newapplesho/twilio-smalltalk/releases/tag/v0.2.2) |
+| [Pharo Smalltalk](http://pharo.org/) | 11.0, 12.0         | Latested Version                                                              |
 
 # Installation
 
+You can load # twilio-smalltalk using Metacello
 
 ```smalltalk
 Metacello new
     baseline: 'Twilio';
-    repository: 'github://newapplesho/twilio-smalltalk:v0.2.1/pharo-repository';
+    repository: 'github://newapplesho/twilio-smalltalk/pharo-repository';
+    baseline: 'Twilio';
     load.
 ```
 
@@ -25,7 +31,6 @@ You can read official documentation [here](https://www.twilio.com/docs/api).
 TwilioSettings default accountSid: 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'.
 TwilioSettings default authToken: 'yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'.
 ```
-
 
 ## Making a Phone Call
 
@@ -46,7 +51,7 @@ client sendTo: '+15558675309' from: '+14158141829' message: 'Pharo Smalltalk„Åã„
 
 ```smalltalk
 client := TwilioRestClient new.
-client sendTo: '+15558675309' from: '+14158141829' message: 'Sent from Pharo Smalltalk.' mediaUrl: 'http://www.example.com/hearts.png'. 
+client sendTo: '+15558675309' from: '+14158141829' message: 'Sent from Pharo Smalltalk.' mediaUrl: 'http://www.example.com/hearts.png'.
 ```
 
 ## Retrieve All Usage Records
@@ -73,7 +78,7 @@ client accounts usageRecords thisMonth list.
 ```smalltalk
 client := TwilioRestClient new.
 "Returns a representation of an account."
-client getAccount: 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'. 
+client getAccount: 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'.
 ```
 
 ## Handling Exceptions
@@ -82,4 +87,3 @@ client getAccount: 'ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'.
 client := TwilioRestClient new.
 [ client sendTo: '+1' from: '+ 14158141829' message: 'Handling Exceptions test'.] on: TwilioRestException do:[:ex | ex inspect ].
 ```
-
