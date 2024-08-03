@@ -1,7 +1,7 @@
 Class {
 	#name : #TwilioCalls,
 	#superclass : #TwilioInstanceResource,
-	#category : #'Twilio-REST-Core'
+	#category : #'Twilio-REST-Core-Base'
 }
 
 { #category : #public }
@@ -17,7 +17,7 @@ TwilioCalls >> makeCallTo: toPhoneNumberString from: fromPhoneNumberString url: 
 	^ self readJsonFromResponse: response.
 ]
 
-{ #category : #public }
+{ #category : #'accessing - private' }
 TwilioCalls >> resourceUrl [
 	^ self defaultResourceBaseUrl / 'Accounts' / self accountSid / 'Calls'
 ]

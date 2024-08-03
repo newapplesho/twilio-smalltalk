@@ -1,7 +1,7 @@
 Class {
 	#name : #TwilioMessages,
 	#superclass : #TwilioInstanceResource,
-	#category : #'Twilio-REST-Core'
+	#category : #'Twilio-REST-Core-Base'
 }
 
 { #category : #public }
@@ -11,7 +11,7 @@ TwilioMessages >> get: aMessageSidString [
 	^ self readJsonFromResponse: response.
 ]
 
-{ #category : #public }
+{ #category : #'accessing - private' }
 TwilioMessages >> resourceUrl [
 	^ self defaultResourceBaseUrl / 'Accounts' / self accountSid / 'Messages'
 ]

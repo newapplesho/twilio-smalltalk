@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'subResource'
 	],
-	#category : #'Twilio-REST-Core'
+	#category : #'Twilio-REST-Core-Base'
 }
 
 { #category : #accessing }
@@ -59,7 +59,7 @@ TwilioRecords >> monthly [
 	self subResource: 'Monthly'
 ]
 
-{ #category : #public }
+{ #category : #'accessing - private' }
 TwilioRecords >> resourceUrl [
 	| url|
 	url := self defaultResourceBaseUrl / 'Accounts' / self accountSid / 'Usage' / 'Records'.

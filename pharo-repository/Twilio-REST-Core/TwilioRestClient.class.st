@@ -5,7 +5,7 @@ Class {
 		'accounts',
 		'client'
 	],
-	#category : #'Twilio-REST-Core'
+	#category : #'Twilio-REST-Core-Base'
 }
 
 { #category : #accessing }

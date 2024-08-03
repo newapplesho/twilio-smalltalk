@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'properties'
 	],
-	#category : #'Twilio-REST-Core'
+	#category : #'Twilio-REST-Core-Base'
 }
 
 { #category : #accessing }

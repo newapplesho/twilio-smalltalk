@@ -5,7 +5,7 @@ Class {
 		'client',
 		'accountSid'
 	],
-	#category : #'Twilio-REST-Core'
+	#category : #'Twilio-REST-Core-Base'
 }
 
 { #category : #'instance creation' }

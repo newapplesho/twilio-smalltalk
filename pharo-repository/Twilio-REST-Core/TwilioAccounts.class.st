@@ -1,7 +1,7 @@
 Class {
 	#name : #TwilioAccounts,
 	#superclass : #TwilioInstanceResource,
-	#category : #'Twilio-REST-Core'
+	#category : #'Twilio-REST-Core-Base'
 }
 
 { #category : #accessing }
@@ -22,7 +22,7 @@ TwilioAccounts >> messages [
 	^ TwilioMessages client: self client
 ]
 
-{ #category : #accessing }
+{ #category : #'accessing - private' }
 TwilioAccounts >> resourceUrl [
 	^ self defaultResourceBaseUrl / 'Accounts' / self accountSid
 ]
