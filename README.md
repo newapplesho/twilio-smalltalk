@@ -1,5 +1,7 @@
 # twilio-smalltalk
 
+[![ci](https://github.com/newapplesho/twilio-smalltalk/actions/workflows/ci.yml/badge.svg)](https://github.com/newapplesho/twilio-smalltalk/actions/workflows/ci.yml)
+
 A Smalltalk library for communicating with the Twilio REST API ([http://twilio.com](http://twilio.com)).
 
 # Supported Smalltalk Versions
