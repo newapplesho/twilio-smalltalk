@@ -2,11 +2,14 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'Twilio',
-      #directory : 'pharo-repository',
+      #directory : './pharo-repository',
+      #load : [ 'CI' ],
       #platforms : [ #pharo ]
     }
   ],
   #testing : {
-    #failOnZeroTests : false
+    #coverage : {
+      #packages : [ 'Twilio*' ]
+    }
   }
 }
