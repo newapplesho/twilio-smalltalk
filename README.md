@@ -18,7 +18,7 @@ You can load # twilio-smalltalk using Metacello
 ```smalltalk
 Metacello new
     baseline: 'Twilio';
-    repository: 'github://newapplesho/twilio-smalltalk/pharo-repository';
+    repository: 'github://newapplesho/twilio-smalltalk:main/src';
     baseline: 'Twilio';
     load.
 ```
