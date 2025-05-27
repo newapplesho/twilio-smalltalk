@@ -8,7 +8,8 @@ A Smalltalk library for communicating with the Twilio REST API ([http://twilio.c
 
 | Name                                 | Smalltalk Version  | Version                                                                       |
 | ------------------------------------ | ------------------ | ----------------------------------------------------------------------------- |
-| [Pharo Smalltalk](http://pharo.org/) | 11.0, 12.0         | Latest Version                                                                |
+| [Pharo Smalltalk](http://pharo.org/) | 13.0               | Latest Version                                                                |
+| [Pharo Smalltalk](http://pharo.org/) | 11.0, 12.0         | v0.3.3                                                                        |
 | [Pharo Smalltalk](http://pharo.org/) | 4.0, 5.0, 6.0, 6.1 | [v0.2.2](https://github.com/newapplesho/twilio-smalltalk/releases/tag/v0.2.2) |
 
 # Installation
@@ -18,8 +19,7 @@ You can load # twilio-smalltalk using Metacello
 ```smalltalk
 Metacello new
     baseline: 'Twilio';
-    repository: 'github://newapplesho/twilio-smalltalk:v0.3.2/src';
-    baseline: 'Twilio';
+    repository: 'github://newapplesho/twilio-smalltalk:v0.3.4/src';
     load.
 ```
 
